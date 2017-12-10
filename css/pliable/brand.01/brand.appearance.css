@@ -9,6 +9,39 @@ START : STRUCTURE
 header
 */
 
+body {
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: -.06rem;
+    color: #5b4d27;
+}
+
+#hero h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: -.06rem;
+    line-height: 2.8rem;
+}
+
+#hero h3 {
+    line-height: 2rem;
+}
+
+#hero h1,
+#hero h2,
+#hero h3,
+#hero h4,
+#hero h5,
+#hero h6 {
+    color: #000;
+    padding: 0px;
+    margin: 0px;
+}
+
 header {
     /* structure */
     height: 12vmax;
@@ -35,7 +68,7 @@ footer {
 
 #hero {
     padding-top: 6vmax;
-    padding-bottom: 6vmax;
+    padding-bottom: 7vmax;
 }
 
 #hero h1,
@@ -43,12 +76,16 @@ footer {
     margin: 0px;
 }
 
+nav.navbar .navbar-brand li:nth-child( 1 ) {
+    /* display: none; */
+}
+
 nav.navbar .navbar-brand li:nth-child( 2 ) {
     background: url( '../../../images/logo_icon.svg' );
-    background-size: 75%;
+    background-size: 90%;
     background-repeat: no-repeat;
-    background-position: 70% center;
-    width: 12vmax;
+    background-position: left center;
+    width: 10vmax;
 }
 
 nav.navbar .navbar-brand li:nth-child( 3 ) {
@@ -64,19 +101,31 @@ nav.navbar .navbar-brand li:nth-child( 3 ) {
 
 @media ( min-width: 768px ) {
 
+    #hero h1 {
+        line-height: 3.5rem;
+    }
+
+    #hero h3 {
+        line-height: 2.7rem;
+    }
+
     header {
         /* structure */
         height: 12vmin;
     }
 
+    main > * > * > article {
+        padding: 0px 18vmin;
+    }
+
     #hero {
         padding-top: 6vmin;
-        padding-bottom: 6vmin;
+        padding-bottom: 7vmin;
         background-size: 55vmin;
     }
 
     nav.navbar .navbar-brand li:nth-child( 2 ) {
-        width: 12vmin;
+        width: 10vmin;
     }
 
     nav.navbar .navbar-brand li:nth-child( 3 ) {
