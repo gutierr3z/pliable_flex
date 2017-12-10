@@ -5,15 +5,15 @@ START : DEBUG
 */
 
 nav.navbar {
-    background-color: yellow;
+    background-color: #ffccff;
 }
 
 nav.navbar .navbar-collapse ul {
-    background-color: GreenYellow;
+    background-color: #ff99cc;
 }
 
 nav.navbar .navbar-collapse ul li {
-    background-color: orange;
+    background-color: #ff99ff;
 }
 
 nav.navbar .navbar-brand {
@@ -21,11 +21,11 @@ nav.navbar .navbar-brand {
 }
 
 nav.navbar .navbar-brand li:nth-child( 1 ) {
-    background-color: DeepPink;
+    background-color: #ff99ff;
 }
 
 nav.navbar .navbar-brand li:nth-child( 2 ) {
-    background-color: DarkViolet;
+    background-color: #ff66ff;
 }
 
 nav.navbar .navbar-brand li:nth-child( 3 ) {
@@ -33,11 +33,11 @@ nav.navbar .navbar-brand li:nth-child( 3 ) {
 }
 
 nav.navbar .navbar-header .navbar-toggle {
-    background-color: Gold;
+    background-color: #ff66cc;
 }
 
 nav.navbar .navbar-header .navbar-toggle .icon-bar {
-    background-color: GoldenRod;
+    background-color: #ff00ff;
 }
 
 nav.navbar,
