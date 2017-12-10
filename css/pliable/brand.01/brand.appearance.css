@@ -1,0 +1,85 @@
+
+/*
+============================================================
+START : STRUCTURE
+*/
+
+/*
+------------------------------------------------------------
+header
+*/
+
+header {
+    /* structure */
+    height: 12vmax;
+    /* appearance */
+    background-color: #c0c0c0;
+}
+
+main {
+    /* appearance */
+    background-color: #fff;
+}
+
+footer {
+    /* appearance */
+    background-color: #c0c0c0;
+}
+
+#hero {
+    background: url( '../../../images/hero_bg.png' );
+    background-size: 55vmax;
+    background-repeat: repeat;
+    background-color: #ffc600;
+}
+
+#hero {
+    padding-top: 6vmax;
+    padding-bottom: 6vmax;
+}
+
+#hero h1,
+#hero p {
+    margin: 0px;
+}
+
+nav.navbar .navbar-brand li:nth-child( 2 ) {
+    background: url( '../../../images/logo_icon.svg' );
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: 70% center;
+    width: 12vmax;
+}
+
+nav.navbar .navbar-brand li:nth-child( 3 ) {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: -.06rem;
+    color: #5b4d27;
+}
+
+#hero * {
+    line-height: inherit;
+}
+
+@media ( min-width: 768px ) {
+
+    header {
+        /* structure */
+        height: 12vmin;
+    }
+
+    #hero {
+        padding-top: 6vmin;
+        padding-bottom: 6vmin;
+        background-size: 55vmin;
+    }
+
+    nav.navbar .navbar-brand li:nth-child( 2 ) {
+        width: 12vmin;
+    }
+
+    nav.navbar .navbar-brand li:nth-child( 3 ) {
+        font-size: 2rem;
+    }
+}

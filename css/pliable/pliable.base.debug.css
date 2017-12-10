@@ -1,0 +1,95 @@
+
+/*
+============================================================
+START : DEBUG
+*/
+
+header {
+    background-color: LightPink;
+}
+
+header > * {
+    background-color: LightSkyBlue;
+}
+
+header > * > * {
+    background-color: LimeGreen;
+}
+
+main {
+    background-color: LightSalmon;
+}
+
+main > * {
+    background-color: MediumSlateBlue;
+}
+
+main > * > * {
+    background-color: Maroon;
+}
+
+footer {
+    background-color: LightSeaGreen;
+}
+
+footer > * {
+    background-color: MediumSpringGreen;
+}
+
+footer > * > * {
+    background-color: Olive;
+}
+
+header,
+main,
+footer,
+header > *,
+main > *,
+footer > *,
+header > * > *,
+main > * > *,
+footer > * > * {
+    /* colors off */
+    /* background-color: transparent; */
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.blue {
+    border: 1px solid blue;
+}
+
+.yellow {
+    border: 1px solid yellow;
+}
+
+.orange {
+    border: 1px solid orange;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.purple {
+    border: 1px solid purple;
+}
+
+.black {
+    border: 1px solid black;
+}
+
+.white {
+    border: 1px solid white;
+}
+
+.gray {
+    border: 1px solid gray;
+}
+
+/*
+END : DEBUG
+============================================================
+*/
