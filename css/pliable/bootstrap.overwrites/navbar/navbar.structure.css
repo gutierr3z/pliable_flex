@@ -9,6 +9,7 @@ nav.navbar {
     margin-bottom: 0px;
     height: inherit;
     min-height: inherit;
+    z-index: 1000;
 }
 
 nav.navbar .navbar-header {
