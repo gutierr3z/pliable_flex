@@ -13,7 +13,7 @@ We assume that you are using a /css folder in your project.  If so, download the
 ```
 your-project/css/pliable/
 ```
-Next, your HTML file (index.html) needs to link to the /pliable/pliable.css.  In the head tag add:
+Next, your HTML file (index.html) needs to link to the /pliable/pliable.css.  In the head tag add the link tag:
 
 ```
 <link href="css/pliable/pliable.css" rel="stylesheet">
@@ -67,7 +67,7 @@ Out of the box, Pliable is very colorful.  We use colors to see the different se
 ```
 <div class="red">my content</div>
 ```
-All these color settings are inside the debugging files which need to be commented out in order to apply your own brand or look and feel.  
+All these color settings are inside the debugging files which need to be commented out before you apply your own brand or look and feel.  
 
 #### Turning off the Debugging Colors
 
@@ -77,5 +77,8 @@ Inside the pliable.css, comment out the pliable.base.debug.css import:
 ```
 This will turn all Pliable background colors off (transparent).  Border class colors applied to tags inline need to be removed manually.
 
-## File Structure
+## File and Code Structure
 
+## License
+
+[MIT](LICENSE)
