@@ -4,7 +4,7 @@ It's a responsive layout structure (HTML/CSS) for a page that just needs a heade
 
 ##Getting Started
 
-###Link to Pliable
+###1) Link to Pliable
 
 Your HTML file, index.html, needs to link to the /pliable/pliable.css.  
 
@@ -18,5 +18,5 @@ your-project/css/pliable/
 ```
 Now you are set to write your HTML.
 
-###HTML Tags
+###2) HTML Tags
 
