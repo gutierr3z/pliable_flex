@@ -1,10 +1,10 @@
-#Pliable CSS
+# Pliable CSS
 
 It's a responsive layout structure (HTML/CSS) for a page that just needs a header at the top, content centered, and footer at the bottom.  Pliable is meant to be used when you want to keep things simple.  But can also work well hand in hand with heavy libraries like Bootstrap.  
 
-##Getting Started
+## Getting Started
 
-###1) Link to Pliable
+### 1) Link to Pliable
 
 Your HTML file, index.html, needs to link to the /pliable/pliable.css.  
 
@@ -18,5 +18,5 @@ your-project/css/pliable/
 ```
 Now you are set to write your HTML.
 
-###2) HTML Tags
+### 2) HTML Tags
 
