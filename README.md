@@ -1,6 +1,6 @@
 # Pliable CSS
 
-It's a responsive layout structure (HTML/CSS) for a page that just needs a header at the top, content centered, and footer at the bottom.  Pliable is meant to be used when you want to keep things simple.  But can also work well hand in hand with heavy libraries like Bootstrap.  
+It's a brandable responsive layout structure (HTML/CSS) for a page that just needs a header at the top, content centered, and footer at the bottom.  Pliable is meant to be used when you want to keep things simple.  But can also work well hand in hand with heavy libraries like Bootstrap.  
 
 ## Getting Started
 
@@ -31,7 +31,7 @@ Pliable expects three top level tags as siblings; header, main, and footer.  We 
     <footer></footer>
 </body>
 ```
-Each of these tags needs to have two nested tags before any content.  We suggest these to be `<section>` tags but can be any block tags.  Pliable just expects two nested levels, does not look for specific types of tags.  
+Each of these tags needs to have in them two nested tags before any content.  We suggest these to be `<section>` tags but can be any block tags.  Pliable just expects two nested levels, does not look for specific types of tags.  
 
 ```
 <body>
@@ -58,3 +58,16 @@ Each of these tags needs to have two nested tags before any content.  We suggest
     </footer>
 </body>
 ```
+
+This three layer structure works well with Bootstrap's class driven layout structure.  You can include the Bootstrap classes to the Pliable structure. 
+
+```
+<main class="container">
+    <section class="row">
+        <section class="col-md-12">
+            // content
+        </section>
+    </section>
+</main>
+```
+Now Pliable should take effect and you can start to add your content.
