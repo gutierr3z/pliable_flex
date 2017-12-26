@@ -1,6 +1,6 @@
 # Pliable CSS
 
-It's a brandable responsive layout structure (HTML/CSS) for a page that just needs a header at the top, content centered, and footer at the bottom.  Pliable is meant to be used when you want to keep things simple.  But can also work well hand in hand with heavy libraries like Bootstrap.  
+It's a brandable responsive layout structure (HTML/CSS) for a page that just needs a header at the top, content centered, and footer at the bottom.  Pliable is meant to be used when you want to keep things simple.  But can also work well with heavy libraries like Bootstrap.  
 
 ## Getting Started
 
